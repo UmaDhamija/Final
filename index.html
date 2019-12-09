@@ -5,64 +5,374 @@
     <title>Uma Dhamija</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
     <link href="https://fonts.googleapis.com/css?family=Lato:100&display=swap" rel="stylesheet"> <!--google font that i used-->
+    <link href="https://fonts.googleapis.com/css?family=Arima+Madurai&display=swap" rel="stylesheet">
   </head>
 
   <body>
-
-<!-- pastelle colors randomized; video in the center -->
     <div class="hero">
+
+      <!-- <div id="hero-image">
+        <div class="blur-button"><a>Uma Dhamija</a></div>
+      </div> -->
+
       <!-- make small and center top -->
-      <h1><a href="index.html">Uma Dhamija</a></h1>
+      <!-- <h1><a href="index.html" >Uma Dhamija</a></h1> -->
+      <a href="index.html"><img src="om.png" class="logo"></img></a>
+
 
       <!-- make bubbly and floating on right side -->
-      <div class="menu"><a href="Videos.html" class="menu_text">My Projects.</a></div>
-      <div class="menu"><a href="Content.html" class="menu_text">Images.</a></div>
-      <div class="menu"><a href="Images.html" class="menu_text">Contact Me.</a></div>
+      <div class="menu"><a href="#middle_panel" class="menu_text">My Projects.</a></div>
+      <div class="menu"><a href="#thumbnailContainer" class="menu_text">Images.</a></div>
+      <div class="menu"><a href="#contact-image" class="menu_text">Contact Me.</a></div>
+
+
+
+<!--HERO IMAGES-->
+      <div class='cool-container'>
+        <div class="coolEffect"></div>
+      </div>
+<!--HERO IMAGES-->
+
 
     </div>
 
+    <div class="aboutMe">
+      <!--interactive line-->
+      <div id="type-shit">
+        <h2>My name is Uma Dhamija.</h2>
+        <h2>I study Integrated Digital Media at New York University's Tandon School of Engineering.</h2>
+        <h2>I was raised in India. My culture is deeply rooted withing me.</h2>
+        <h2>And I love to design... especially with teams.</h2>
+      </div>
+      <span id="typed"></span>
+    </div>
 
-    <div class="aboutMe"><h2>About me. Animation that will write out as you scroll up.</h2></div>
-
-
-
-    <div class="middle_panel">
+    <div id="middle_panel">
 
       <div class="text_container">
 
-        <a class="link" href="https://vimeo.com/368166262" target="_blank"><p class="text">Taste Of Othmer Hall.</p></a>
-          <h4>As the Director of Recognition and Development for Othmer Hall in 2018-2019, we created a short music video to represent out hall. It was a group project where residents got to volunteer and be a part of our video.</h4>
+        <a href="https://youtu.be/t10_LJaO2eg" target="_blank" class="text">Taste Of Othmer Hall.</a>
 
-        <a class="text">Dakumentary. Music Video.</a>
-        <iframe src="https://player.vimeo.com/video/368164808" width="900px" height="900px" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-          <!-- removes blur with click-->
-          <h4>During my first year at university, I compiled videos and clips of my friend. Later during the year, he asked me to create a music video of him using Drake's song: "Know Yourself".</h4>
+        <div class='embed-container'><iframe src='https://www.youtube.com/embed//t10_LJaO2eg' frameborder='0' allowfullscreen></iframe></div>
+        <!--use type out library--><h4>As the Director of Recognition and Development for Othmer Hall in 2018-2019, we created a short music video to represent out hall. It was a group project where residents got to volunteer and be a part of our video.</h4>
 
-      </div>
+        <a class="text">"Dakumentary." Music Video.</a>
+        <div class='embed-container'><iframe src='https://player.vimeo.com/video/368164808' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
+        <!--use type out library--><h4>During my first year at university, I compiled videos and clips of my friend. Later during the year, he asked me to create a music video of him using Drake's song: "Know Yourself".</h4>
 
+        <a class="text" href="https://www.youtube.com/watch?v=YeCe-6mEgjE" target="_blank">Kathak Dance Videos.</a>
+        <video width="30%" height="30%" controls="" src="Uma Saiyaan.mp4" poster="Saiyaan"></video>
+        <!--use type out library--><h4>I was asked to perform at my cousin's wedding. I have done Indian Classical Dance, called Kathak, since the age of 5.</h4>
+
+<!--Rogue-->
+        <a class="text" href="https://www.instagram.com/rogue.ny/" target="_blank">Rogue Photography.</a>
+
+        <div class="rogue-container">
+
+          <div class="col">
+            <div class="container">
+              <div class="front" style="background-image: url('dak2.jpg')">
+                <div class="inner">
+                  <p>Rogue.</p>
+                </div>
+              </div>
+              <div class="back" style="background-image: url('dak2.jpg')"></div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="container"> <!--preserves 3D of text-->
+              <div class="front" style="background-image: url('dak3.jpg');">
+                <div class="inner">
+                  <p>Rogue.</p>
+                </div>
+              </div>
+              <div class="back" style="background-image: url('dak3.jpg')"></div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="container">
+              <div class="front" style="background-image: url('dak1.jpg')">
+                <div class="inner">
+                  <p>Rogue.</p>
+                </div>
+              </div>
+              <div class="back" style="background-image: url('dak1.jpg')"></div>
+            </div>
+          </div>
+
+        </div>
+<!--Rogue-->
+        <a class="text">'Digital Sustainable World' Project.</a>
+
+        <div class="rogue-container">
+
+          <div class="col">
+            <div class="container">
+              <div class="front" style="background-image: url('sustainableLogo1.jpg')">
+                <div class="inner">
+                  <p>Initial prototype.</p>
+                </div>
+              </div>
+              <div class="back" style="background-image: url('sustainableLogo1.jpg')"></div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="container"> <!--preserves 3D of text-->
+              <div class="front" style="background-image: url('sustainableLogo3.jpg');">
+                <div class="inner">
+                  <p>Final Result.</p>
+                </div>
+              </div>
+              <div class="back" style="background-image: url('sustainableLogo3.jpg')"></div>
+            </div>
+          </div>
+        </div>
+        <h4>I wanted to choose a sutainablility project for one of my classes. I decided to create its logo on a scarf. I got to use a laser cutter (for its shape) and paint to finally create the end result.</h4>
+
+
+      </div> <!--text-container closed (projects)-->
+    </div> <!--middle panel-->
+
+    <div id="thumbnailContainer">
+      <!--IMAGES-->
+      <div class="wrapper">
+        <div class="cols">
+            <div class="col">
+              <div class="container">
+                <div class="front" style="background-image: url('fruit.jpg')">
+                  <div class="inner">
+                    <p>Fruit</p>
+                    <span>Istanbul</span>
+                  </div>
+                </div>
+                <div class="back" style="background-image: url('fruit.jpg')"></div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="container"> <!--preserves 3D of text-->
+                <div class="front" style="background-image: url('construction.jpg');">
+                  <div class="inner">
+                    <p>Construction.</p>
+                    <span>India</span>
+                  </div>
+                </div>
+                <div class="back" style="background-image: url('construction.jpg')"></div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="container">
+
+                <div class="front" style="background-image: url('museum.jpg')">
+                  <div class="inner">
+                    <p>Museum</p>
+                    <span>Ottoman.</span>
+                  </div>
+                </div>
+
+                <div class="back" style="background-image: url('museum.jpg')"></div>
+
+              </div>
+            </div>
+
+
+            <div class="col">
+              <div class="container"> <!--preserves 3D of text-->
+
+                <div class="front" style="background-image: url('sunrisesky.jpg')">
+                  <div class="inner">
+                    <p>Sunset.</p>
+                    <span>India</span>
+                  </div>
+                </div>
+
+                <div class="back" style="background-image: url('sunrisesky.jpg')"></div>
+
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="container"> <!--preserves 3D of text-->
+
+                <div class="front" style="background-image: url('purple.jpg')">
+                  <div class="inner">
+                    <p>Purple.</p>
+                    <span>New Jersey</span>
+                  </div>
+                </div>
+
+                <div class="back" style="background-image: url('purple.jpg')"></div>
+
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="container"> <!--preserves 3D of text-->
+
+                <div class="front" style="background-image: url('sunrise.png')">
+                  <div class="inner">
+                    <p>Sunrise.</p>
+                    <span>India</span>
+                  </div>
+                </div>
+
+                <div class="back" style="background-image: url('sunrise.png')"></div>
+
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="container"> <!--preserves 3D of text-->
+
+                <div class="front" style="background-image: url('saif.jpg')">
+                  <div class="inner">
+                    <p>Portrait.</p>
+                    <span>NYC</span>
+                  </div>
+                </div>
+
+                <div class="back" style="background-image: url('saif.jpg')"></div>
+
+              </div>
+            </div>
+
+
+            <div class="col">
+              <div class="container"> <!--preserves 3D of text-->
+
+                <div class="front" style="background-image: url('oldman.jpg')">
+                  <div class="inner">
+                    <p>Old Man.</p>
+                    <span>Istanbul</span>
+                  </div>
+                </div>
+
+                <div class="back" style="background-image: url('oldman.jpg')"></div>
+
+              </div>
+            </div>
+
+
+            <div class="col">
+              <div class="container"> <!--preserves 3D of text-->
+
+                <div class="front" style="background-image: url('Stage.jpg')">
+                  <div class="inner">
+                    <p>Concert.</p>
+                    <span>NYC</span>
+                  </div>
+                </div>
+
+                <div class="back" style="background-image: url('Stage.jpg')"></div>
+
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="container"> <!--preserves 3D of text-->
+
+                <div class="front" style="background-image: url('sonali.jpg')">
+                  <div class="inner">
+                    <p>Diwali.</p>
+                    <span>India</span>
+                  </div>
+                </div>
+
+                <div class="back" style="background-image: url('sonali.jpg')"></div>
+
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="container"> <!--preserves 3D of text-->
+
+                <div class="front" style="background-image: url('harmonium.png')">
+                  <div class="inner">
+                    <p>Music.</p>
+                    <span>India</span>
+                  </div>
+                </div>
+
+                <div class="back" style="background-image: url('harmonium.png')"></div>
+
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="container"> <!--preserves 3D of text-->
+                <div class="front" style="background-image: url('steps.jpg')">
+                  <div class="inner">
+                    <p>Monument.</p>
+                    <span>Kutub Minar | India</span>
+                  </div>
+                </div>
+                <div class="back" style="background-image: url('steps.jpg')"></div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="container"> <!--preserves 3D of text-->
+                <div class="front" style="background-image: url('brooklyn.jpg')">
+                  <div class="inner">
+                    <p>Street Art.</p>
+                    <span>Brooklyn</span>
+                  </div>
+                </div>
+                <div class="back" style="background-image: url('brooklyn.jpg')"></div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="container"> <!--preserves 3D of text-->
+                <div class="front" style="background-image: url('boy.jpg')">
+                  <div class="inner">
+                    <p>Street Art.</p>
+                    <span>Brooklyn</span>
+                  </div>
+                </div>
+                <div class="back" style="background-image: url('boy.jpg')"></div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="container"> <!--preserves 3D of text-->
+                <div class="front" style="background-image: url('statue.jpg')">
+                  <div class="inner">
+                    <p>Street Art.</p>
+                    <span>Brooklyn</span>
+                  </div>
+                </div>
+                <div class="back" style="background-image: url('statue.jpg')"></div>
+              </div>
+            </div>
+
+          </div>
+        </div>
     </div>
 
+  <!-- Should I keep this or the menu option? -->
+  <!-- <h3>Contact Me.</h3> -->
 
-    <div class="thumbnailContainer">
-      <h3>Photography. Three thumbnail containers with photography. Each one will have a swipe/slideshow libraries. Name/Title will appear here.</h3>
-      <div class="thumbnail" style="background-image: url('fruit.jpg')"></div>
-      <div class="thumbnail" style="background-image: url('construction.jpg')"></div>
-    </div>
-
-    <h3>Contact Me.</h3> <!-- Should I keep this or the menu option? -->
-
-    <div align="center" class="contact-image">
-      <div class="contact">
-        <form> <!-- scroll reveal animation (each label will zip in with scroll) -->
-          <label> Your Name: <br> <input type="text" name="name"> </label>
-          <label> Your Email:  <input type="email" name="_replyto"> </label>
+    <div align="center" id="contact-image">
+      <!-- <div class="bezier-line"></div> -->
+      <!-- <div class="contact">
+        <form>
+          <label> Your Name: <br> <textarea type="text" name="name"></textarea> </label>
+          <label> Your Email:  <textarea type="email" name="_replyto"></textarea> </label>
           <label> Message:  <textarea name="message"></textarea></label>
-          <input type="submit" value="Send!"> <!--How Do i style this button???-->
+          <input type="submit" value="Send!">
         </form>
-      </div>
+      </div> -->
+      <div class="contact-buttons"><a href="https://www.instagram.com/uma_dhamija/" target="_blank"><img src="instagramlogo.png"></a></div>
     </div>
-
-
+    <script src="typed.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js" integrity="sha256-lPE3wjN2a7ABWHbGz7+MKBJaykyzqCbU96BJWjio86U=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/109/three.min.js" integrity="sha256-Wua0LsQkGDEeIkbmBNjj9wcThJh5uCD6R8+5YQhXveQ=" crossorigin="anonymous"></script>
+    <script src="hover.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+    <script src="script.js"></script>
   </body>
 
 </html>
