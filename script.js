@@ -13,16 +13,16 @@
 // }
 
 new hoverEffect({
-  parent: document.querySelector('.coolEffect');
-  intensity: 0.2;
-  image1: 'fruit.jpg';
-  image2: 'dak1.jpg';
-  displacementImage: 'liquid.png';
+  parent: document.querySelector('.coolEffect'),
+  intensity: 0.2,
+  image1: 'headshotUse.png',
+  image2: 'umadhamija.png',
+  displacementImage: 'liquid.png'
 });
 
-var typed = new Typed('#typed', {
-  stringsElement: '#type-shit'
-});
+// var typed = new Typed('#typed', {
+//   stringsElement: '#type-shit'
+// });
 
 // $('document').ready(function(){
 //
