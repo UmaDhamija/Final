@@ -20,15 +20,6 @@ new hoverEffect({
   displacementImage: 'liquid.png'
 });
 
-
-new hoverEffect({
-  parent: document.querySelector('.textEffect'),
-  intensity: 0.2,
-  image1: '"Uma Dhamija"',
-  image2: '"I study Integrated Digital Media"',
-  displacementImage: 'liquid.png'
-});
-
 var typed = new Typed('#typed', {
   stringsElement: '#type-stuff'
 });

@@ -107,14 +107,6 @@ a{
 }
 
 
-h3{
-  text-align: center;
-  color: black;
-  font-family: 'Baskerville';
-  font-weight: light;
-  font-size: 35px;
-}
-
 /*HERO IMAGES*/
 .cool-container{
   height: 100vh;
@@ -251,20 +243,34 @@ iframe:hover{
 /*IMAGES*/
 /*Inspired by: https://www.tutorialrepublic.com/faq/how-to-create-3d-flipping-effect-on-mouse-hover-using-css.php AND https://raphaelfabeni.com/transition-snippets/*/
 
+
+h3{
+  text-align: center;
+  color: white;
+  font-family: 'Arima Madurai';
+  font-weight: light;
+  font-size: 35px;
+  padding: 30px;
+  margin-bottom: 0px;
+}
+
+#imagesContainer{
+  background-image: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);
+
+}
 #thumbnailContainer {
   display: flex;
   flex-direction: row;
   /* margin-bottom: 200px; */
   align-items: center;
   padding: 0px;
-  background-image: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);
 }
 
 .wrapper{
   width: 90%;
   /* margin: 0 auto; */
   max-width: 80rem;
-  margin-top: 100px;
+  /* margin-top: 100px; */
   margin-bottom: 100px;
 }
 
@@ -406,35 +412,6 @@ iframe:hover{
 .contact-button img{
   height: 50px;
 }
-
-
-/* .contact{
-  display: flex;
-  justify-content: center;
-}
-
-label{
-  display: flex;
-  align-items: center;
-  margin-top: 70px;
-  padding: 5px;
-  font-family: 'Arima Madurai';
-  color: white;
-  font-size: 25px;
-  font-weight: bold;
-  border-radius: 20px;
-  background-image: linear-gradient(to top, #d299c2 50%, #fef9d7 100%);
-}
-
-input, textarea{
-  border-radius: 15px;
-  height: 30px;
-  width: 100px;
-}
-
-
-input{filter:blur(4px); opacity: 10px; margin-top: 70px;}
-input:hover{filter:blur(0px); transition: .5s} */
 
 .link{color: black}
 a:hover {color:  #B6ABEB}
